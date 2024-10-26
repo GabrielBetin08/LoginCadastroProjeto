@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "User3", email: "user3@example.com", password: "password3" }
     ];
 
-    // Função para simular login
+    // Função para  login
     function loginUser(email, password) {
         const user = users.find(u => u.email === email && u.password === password);
         return user ? `Bem-vindo, ${user.name}!` : "Email ou senha incorretos.";
